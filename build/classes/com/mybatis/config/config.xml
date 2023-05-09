@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+
+	<typeAliases>
+		<typeAlias type="com.example.app.member.dto.MemberDTO" alias="MemberDTO"/>
+		<typeAlias type="com.example.app.board.dto.BoardDTO" alias="BoardDTO"/>
+		<typeAlias type="com.example.app.board.vo.BoardVO" alias="BoardVO"/>
+		<typeAlias type="com.example.app.file.dto.FileDTO" alias="FileDTO"/>
+		<typeAlias type="com.example.app.reply.dto.ReplyDTO" alias="ReplyDTO"/>
+		<typeAlias type="com.example.app.reply.vo.ReplyVO" alias="ReplyVO"/>
+	</typeAliases>
+
+
+	<environments default="mysql">
+		<environment id="mysql">
+		<transactionManager type="JDBC"/>
+		<dataSource type="POOLED">
+			<property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+			<property name="url" value="jdbc:mysql://localhost:3306/jsp_pm"/>
+			<property name="username" value="root"/>
+			<property name="password" value="1234"/>
+		</dataSource>
+		</environment>
+	</environments>
+	
+	<mappers>
+		<mapper resource="com/mybatis/mapper/MemberMapper.xml"/>
+		<mapper resource="com/mybatis/mapper/BoardMapper.xml"/>
+		<mapper resource="com/mybatis/mapper/FileMapper.xml"/>
+		<mapper resource="com/mybatis/mapper/ReplyMapper.xml"/>
+	</mappers>
+</configuration>
+
+
+
+
