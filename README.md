@@ -13,6 +13,9 @@ Back-End와 Front_End가 분리되어 분업이 용이하고, 기능에 따라 �
 - 회원가입
 <img width="853" alt="회원가입 페이지" src="https://github.com/KimByoungKoo/Study_JSP_Board_Project/assets/126244836/7cfdf3e1-2c2b-4c64-bce0-3688a8e29c6d">
 
+- 로그인 페이지
+<img width="638" alt="로그인 페이지" src="https://github.com/KimByoungKoo/Study_JSP_Board_Project/assets/126244836/426c98a1-db90-4f75-9be3-78a7029fafa6">
+
 - 로그인 후 메인페이지
 <img width="871" alt="메인 페이지" src="https://github.com/KimByoungKoo/Study_JSP_Board_Project/assets/126244836/ea02eabc-0492-4d18-9ee6-b6b85be0b690">
 
